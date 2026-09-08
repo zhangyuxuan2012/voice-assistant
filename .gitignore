@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 构建产物
+build/
+dist/
+*.spec
+icon_preview.png
+
+# 离线模型（体积较大，不提交；用 tools/prepare_models.py 获取）
+models/
+
+# 运行时数据（用户目录）
+*.log
+config.json
+
+# IDE
+.vscode/
+.idea/

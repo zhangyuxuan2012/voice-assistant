@@ -1,0 +1,13 @@
+# 语音助手依赖清单（用于从源码运行 / 重新打包）
+# 打包后的 EXE 已内置全部依赖，用户无需安装这些
+PyQt6>=6.6
+SpeechRecognition>=3.10
+sounddevice>=0.5
+numpy>=1.26
+openai>=1.40
+keyboard>=0.13.5
+edge-tts>=6.1,<8
+pyttsx3>=2.99
+vosk>=0.3.41
+pillow>=10.0
+pyinstaller>=6.6
